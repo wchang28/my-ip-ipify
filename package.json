@@ -1,0 +1,24 @@
+{
+  "name": "my-ip-ipify",
+  "version": "1.0.0",
+  "description": "Get My Public IP from ipify.org",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "transpile": "tsc"
+    ,"test": "node ./dist/cli.js"
+  },
+  "bin": {
+    "my-ip-ipfy": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wchang28/my-ip-ipify.git"
+  },
+  "author": "Wen Chang",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^10.12.10",
+    "superagent": "^4.0.0"
+  }
+}
