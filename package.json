@@ -9,7 +9,7 @@
     ,"test": "node ./dist/cli.js"
   },
   "bin": {
-    "my-ip-ipfy": "./dist/cli.js"
+    "my-ip-ipify": "./dist/cli.js"
   },
   "repository": {
     "type": "git",
